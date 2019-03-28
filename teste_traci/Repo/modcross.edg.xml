@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+   <edge id="1i" from="1" to="0" type="go_in_to_junction" />
+   <edge id="1o" from="0" to="1" type="come_out_of_junction" />
+
+   <edge id="2i" from="2" to="0" type="go_in_to_junction" />
+   <edge id="2o" from="0" to="2" type="come_out_of_junction" />
+
+   <edge id="3i" from="3" to="0" type="go_in_to_junction" />
+   <edge id="3o" from="0" to="3" type="come_out_of_junction" />
+	...
+
+</edges>

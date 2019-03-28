@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Mar 28 02:27:00 2019 by Eclipse SUMO duarouter Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="data/paulista.net.xml"/>
+        <route-files value="data/od_file.odtrips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="data/od_route_file.odtrips.rou.xml"/>
+        <alternatives-output value="data/od_route_file.odtrips.rou.alt.xml"/>
+    </output>
+
+    <report>
+        <xml-validation value="never"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="1289" depart="36.35" departLane="free" departSpeed="max" fromTaz="4" toTaz="5">
+        <route edges="211556987#1 211556987#2 211556987#3 211556987#4 211556987#5 211556987#6 16257589#0 16257589#1 16257589#2 16257589#3 16257589#4 16257589#5 72767357#0 72767357#1 72767353#0 72767353#1 230628523#0 230628523#1 230628537#3 230628537#4 230628537#5 230628537#6 230628537#7 282974683#0 282974683#1 230628536#0 230628536#1 230628536#2"/>
+    </vehicle>
+    <vehicle id="1244" depart="49.05" departLane="free" departSpeed="max" fromTaz="4" toTaz="5">
+        <route edges="211556987#1 211556987#2 211556987#3 211556987#4 211556987#5 211556987#6 16257589#0 16257589#1 16257589#2 16257589#3 16257589#4 16257589#5 72767357#0 72767357#1 72767353#0 72767353#1 230628523#0 230628523#1 230628537#3 230628537#4 230628537#5 230628537#6 230628537#7 282974683#0 282974683#1 230628536#0 230628536#1 230628536#2"/>
+    </vehicle>
+    <vehicle id="1204" depart="104.56" departLane="free" departSpeed="max" fromTaz="4" toTaz="5">
+        <route edges="211556987#1 211556987#2 211556987#3 211556987#4 211556987#5 211556987#6 16257589#0 16257589#1 16257589#2 16257589#3 16257589#4 16257589#5 72767357#0 72767357#1 72767353#0 72767353#1 230628523#0 230628523#1 230628537#3 230628537#4 230628537#5 230628537#6 230628537#7 282974683#0 282974683#1 230628536#0 230628536#1 230628536#2"/>
+    </vehicle>
+    <vehicle id="1254" depart="135.94" departLane="free" departSpeed="max" fromTaz="4" toTaz="5">
+        <route edges="211556987#1 211556987#2 211556987#3 211556987#4 211556987#5 211556987#6 16257589#0 16257589#1 16257589#2 16257589#3 16257589#4 16257589#5 72767357#0 72767357#1 72767353#0 72767353#1 230628523#0 230628523#1 230628537#3 230628537#4 230628537#5 230628537#6 230628537#7 282974683#0 282974683#1 230628536#0 230628536#1 230628536#2"/>
+    </vehicle>
+</routes>
